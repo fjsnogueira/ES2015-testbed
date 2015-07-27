@@ -1,4 +1,8 @@
 {
+  "name": "jspm-bundling",
+  "version": "0.0.6",
+  "homepage": "http://github.com/ricardobrandao/jspm-bundling",
+  "repository": "git://github.com/ricardobrandao/jspm-bundling.git",
   "jspm": {
     "directories": {},
     "dependencies": {
@@ -14,6 +18,22 @@
     }
   },
   "devDependencies": {
-    "eslint": "^0.24.1"
+    "browser-sync": "^2.8.0",
+    "conventional-changelog": "^0.2.1",
+    "del": "^1.2.0",
+    "eslint": "^0.24.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-changed": "^1.2.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-shell": "^0.4.2",
+    "jshint-stylish": "^2.0.1",
+    "jspm": "^0.15.7",
+    "object.assign": "^3.0.1",
+    "run-sequence": "^1.1.2",
+    "vinyl-paths": "^1.0.0"
   }
 }

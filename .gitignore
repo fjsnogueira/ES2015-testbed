@@ -1,6 +1,6 @@
 # exclude libraries
-/app/jspm_packages/*
+/app/jspm_packages/**
 # exclude node modules
-/app/node_modules/*
+/app/node_modules/**
 # exclude the dist folder since we have tasks to build it
-/app/dist/*
+/app/dist/**

@@ -7,9 +7,17 @@ System.config({
     ]
   },
   "paths": {
-    "*": "src/*.js",
+    "*": "dist/*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
+  },
+  "bundles": {
+    "bundled": [
+      "github:knockout/knockout@3.3.0/dist/knockout.debug",
+      "index-template.html!github:systemjs/plugin-text@0.0.2",
+      "github:knockout/knockout@3.3.0",
+      "index-viewmodel"
+    ]
   }
 });
 
@@ -35,3 +43,4 @@ System.config({
     }
   }
 });
+
