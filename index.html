@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src="app/jspm_packages/system.js"></script>
+    <script>
+      window.define = System.amdDefine;
+      window.require = window.requirejs = System.amdRequire.bind(System);
+    </script>
+  </head>
+  <body>
+    <div id="js-index-container">
+      <index params="isInitialized: isInitialized" data-bind="visible: isInitialized"></index>
+    </div>
+
+    <script src='app/config.js'></script>
+    <script>
+      System.import('index-bootstrapper');
+    </script>
+  </body>
+</html>
