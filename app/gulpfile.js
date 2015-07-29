@@ -21,6 +21,7 @@ var path = {
   style:'styles/**/*.css',
   output:'dist/',
   doc:'./doc',
+  root:'../'
 };
 
 var bundles = [
@@ -36,7 +37,7 @@ var compilerOptions = {
 	comments: false,
 	compact: false,
 	stage: 2,
-	optional: [] 
+	optional: []
 };
 
 var jshintConfig = {esnext:true};
@@ -104,7 +105,7 @@ gulp.task('serve', ['build'], function(done) {
     open: false,
     port: 8080,
     server: {
-      baseDir: ['.'],
+      baseDir: [path.root],
       middleware: function (req, res, next) {
         res.setHeader('Access-Control-Allow-Origin', '*');
         next();
