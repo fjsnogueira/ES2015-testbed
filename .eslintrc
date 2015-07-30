@@ -1,4 +1,7 @@
 {
+  "env": {
+    "browser": true
+  },
   "ecmaFeatures": {
     "arrowFunctions": true,
     "binaryLiterals": false,
@@ -53,12 +56,12 @@
     "wrap-iife": 0,
     "wrap-regex": 0,
     "yoda": [0, "never"],
-    
+
     "no-alert": 0,
     "no-caller": 0,
     "no-class-assign": 0,
     "no-cond-assign": 2,
-    "no-console": 2,
+    "no-console": 0,
     "no-const-assign": 0,
     "no-constant-condition": 2,
     "no-control-regex": 2,
@@ -158,7 +161,7 @@
     "comma-spacing": [1, {"before": false, "after": true}],
     "comma-style": [1, "last"],
     "computed-property-spacing": [1, "never"],
-    "consistent-this": [1, "self", "that"],
+    "consistent-this": [1, "self"],
     "eol-last": 2,
     "func-names": 1,
     "func-style": [0, "declaration"],
