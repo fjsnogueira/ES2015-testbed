@@ -1,11 +1,11 @@
 var changelog = require('conventional-changelog');
-var gulp = require('gulp');
 var fs = require('fs');
+var gulp = require('gulp');
 
 var paths = require('../paths');
 
 gulp.task('changelog', function(callback) {
-	var pkg = JSON.parse(fs.readFileSync(paths.root + '/package.json', 'utf-8'));
+	var pkg = JSON.parse(fs.readFileSync('package.json', 'utf-8'));
 
 	return changelog({
 		repository: pkg.repository.url,

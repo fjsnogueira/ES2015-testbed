@@ -3,6 +3,5 @@ module.exports = {
 	html: 'src/**/*.html',
 	style: 'styles/**/*.css',
 	output: 'dist/',
-	doc: './doc',
-	root: '../'
+	doc: 'doc/'
 };
