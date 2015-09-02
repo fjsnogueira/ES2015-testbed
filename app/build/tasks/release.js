@@ -6,6 +6,7 @@ gulp.task('release', function(callback) {
 	return runSequence(
 		'build',
 		'lint',
+		'minify',
 		'bump-version',
 		'changelog',
 		callback
