@@ -14,9 +14,7 @@ gulp.task('build-system', function() {
 		.pipe(changed(paths.output, {
 			extension: '.js'
 		}))
-		.pipe(babel(assign({}, compilerOptions, {
-			modules: 'system'
-		})))
+		.pipe(babel(assign({}, compilerOptions)))
 		.pipe(gulp.dest(paths.output));
 });
 

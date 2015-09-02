@@ -1,8 +1,8 @@
 {
-  "name": "jspm-bundling",
-  "version": "0.0.6",
-  "homepage": "http://github.com/ricardobrandao/jspm-bundling",
-  "repository": "git://github.com/ricardobrandao/jspm-bundling.git",
+  "name": "ES2015-testbed",
+  "version": "0.0.17",
+  "homepage": "http://github.com/ricardobrandao/ES2015-testbed",
+  "repository": "git://github.com/ricardobrandao/ES2015-testbed.git",
   "jspm": {
     "directories": {},
     "dependencies": {
@@ -12,9 +12,9 @@
       "text": "github:systemjs/plugin-text@^0.0.2"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
     }
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "gulp-shell": "^0.4.2",
     "gulp-uglify": "^1.4.0",
     "gulp-util": "^3.0.6",
-    "jspm": "^0.15.7",
+    "jspm": "^0.16.2",
     "object.assign": "^3.0.1",
     "run-sequence": "^1.1.2",
     "vinyl-paths": "^1.0.0"
