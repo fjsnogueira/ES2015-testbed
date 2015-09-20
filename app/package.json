@@ -36,6 +36,7 @@
     "gulp-util": "^3.0.6",
     "jspm": "^0.16.2",
     "object.assign": "^3.0.1",
+    "require-dir": "^0.3.0",
     "run-sequence": "^1.1.2",
     "vinyl-paths": "^1.0.0"
   }
